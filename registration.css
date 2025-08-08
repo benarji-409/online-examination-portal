@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: linear-gradient(135deg, #dfe6e9, #a1c4fd);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 60px;
+}
+
+
+.form-container {
+    background-color: #ffffff;
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 900px;
+}
+
+.form-container h1 {
+    text-align: center;
+    color: #0a3d62;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+
+.form-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+
+.form-group {
+    flex: 1;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #2d3436;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #b2bec3;
+    font-size: 16px;
+    outline: none;
+}
+
+form input:focus,
+form select:focus {
+    border-color: #0984e3;
+}
+
+
+.submit-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+form button {
+    width: 200px;
+    padding: 12px;
+    background: linear-gradient(to right, #74b9ff, #0984e3);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+form button:hover {
+    background: linear-gradient(to right, #0984e3, #74b9ff);
+}
+.additional-fields {
+    margin-top: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.additional-fields label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #34495e;
+}
+
+.additional-fields textarea,
+.additional-fields input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.1);
+}
